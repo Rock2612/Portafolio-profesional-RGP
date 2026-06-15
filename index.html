@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional | Desarrollador Software</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Rodrigo<span>.dev</span></a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#cv" class="nav-link">Mi CV</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Cambiar tema">🌓</button>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <h1>Hola, soy <span>Rodrigo Gonzalez</span></h1>
+                <h2>Desarrollador de Software</h2>
+                <p>Especializado en crear soluciones web modernas, robustas y a la medida, combinando tecnologías frontend y backend.</p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#cv" class="btn btn-secondary">Ver CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects-section">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Mundo entre Libros</h3>
+                        <p>Desarrollo de interfaz de usuario y arquitectura web para una plataforma de librería digital, optimizando componentes interactivos y diseño responsivo.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Código</a>
+                            <a href="#" class="project-link-live">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Mundo-Fifas Web</h3>
+                        <p>Colaboración en repositorio y despliegue de plataforma web utilizando control de versiones Git/GitHub para la integración fluida de funciones.</p>
+                        <div class="project-tags">
+                            <span>Vite</span>
+                            <span>Bootstrap</span>
+                            <span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Código</a>
+                            <a href="#" class="project-link-live">Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>API REST Backend</h3>
+                        <p>Construcción y optimización de servicios y manejo de datos complejos utilizando arquitecturas robustas y pruebas de endpoints de extremo a extremo.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Postman</span>
+                            <span>Git</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Código</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="cv" class="cv-section">
+            <h2 class="section-title">Mi Currículum</h2>
+            <div class="cv-container">
+                <div class="cv-block">
+                    <h3>Perfil Profesional</h3>
+                    <p>Desarrollador de software con sólida formación en tecnologías full stack, automatización y gestión de datos. Experiencia práctica en el desarrollo de arquitecturas frontend interactivas, optimización de lógica en el backend y control de versiones. Enfocado en la resolución de problemas técnicos complejos y en la entrega de código limpio y escalable.</p>
+                </div>
+
+                <div class="cv-grid">
+                    <div class="cv-col">
+                        <h3>Habilidades Técnicas</h3>
+                        <ul class="skills-list">
+                            <li><strong>Lenguajes:</strong> Java, JavaScript, HTML5, CSS3</li>
+                            <li><strong>Frameworks / Librerías:</strong> Bootstrap, Vite</li>
+                            <li><strong>Herramientas / Herramientas:</strong> Git, GitHub, Postman, VS Code</li>
+                            <li><strong>Gestión / Operaciones:</strong> Facturación, Invocing, Gestión de Cobranza</li>
+                        </ul>
+                    </div>
+                    <div class="cv-col">
+                        <h3>Experiencia Destacada</h3>
+                        <div class="timeline-item">
+                            <h4>Desarrollador Full Stack (En formación / Proyectos)</h4>
+                            <p class="timeline-date">2026 - Presente</p>
+                            <p>Construcción de aplicaciones web interactivas y APIs, integrando buenas prácticas de desarrollo ágil y control de versiones.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Gestión de Operaciones y Facturación</h4>
+                            <p class="timeline-date">Casa Pastrana</p>
+                            <p>Responsable del control de facturación, optimización de cuentas por cobrar y flujos de cobranza administrativa.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-download">
+                    <a href="mi-cv.pdf" download class="btn btn-primary">Descargar CV en PDF</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2 class="section-title">Contacto</h2>
+            <p>¿Tienes algún proyecto en mente o una propuesta de colaboración? ¡Hablemos!</p>
+            <div class="contact-info">
+                <p>📧 Email: <a href="mailto:tu-correo@example.com">tu-correo@example.com</a></p>
+                <p>💼 LinkedIn: <a href="#" target="_blank">linkedin.com/in/tu-perfil</a></p>
+                <p>💻 GitHub: <a href="#" target="_blank">github.com/tu-usuario</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rodrigo Gonzalez. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
